@@ -9,7 +9,7 @@ PUERTO_COMANDOS = 4041
 PUERTO_DISCOVERY = 4000
 conexion = None
 direccion = None
-
+#comentario de prueba desde github
 # =========================
 # DISCOVERY (UDP)
 # =========================
