@@ -32,7 +32,11 @@ def discovery_server():
             time.sleep(1)
 
 # =========================
+
+
 # SERVIDOR PRINCIPAL
+
+
 # =========================
 while True:
     try:
