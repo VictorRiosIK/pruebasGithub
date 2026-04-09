@@ -1,7 +1,7 @@
 import socket
 import threading
 import time
-
+#actualizacion de rama main
 # ===== Configuración =====
 IP_SERVIDOR = '0.0.0.0'
 PUERTO_SERVER = 4040
