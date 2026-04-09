@@ -13,6 +13,8 @@ direccion = None
 # =========================
 # DISCOVERY (UDP)
 # =========================
+
+#comentario desde visual studio haci github
 def discovery_server():
     udp = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     udp.bind(("", PUERTO_DISCOVERY))
