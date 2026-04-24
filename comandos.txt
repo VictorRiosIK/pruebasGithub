@@ -83,4 +83,11 @@ Usar ramas
 Evitar push --force
 Usar revert en equipo
 
+
+
+
+
+
+
+
 --cambio prueba
