@@ -84,7 +84,7 @@ Evitar push --force
 Usar revert en equipo
 
 
-
+--comentario desde git para descargar con git pull
 
 
 
