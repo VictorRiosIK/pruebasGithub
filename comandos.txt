@@ -87,7 +87,7 @@ Usar revert en equipo
 --comentario desde git para descargar con git pull
 
 
-
+--comentario a subir desde visual
 
 
 --cambio prueba
