@@ -1,6 +1,6 @@
 📘 COMPENDIO DE COMANDOS GIT
 🔰 Básicos
-
+.
 git status # Ver estado del repo
 git add . # Agregar cambios
 git commit -m "msg" # Guardar cambios
