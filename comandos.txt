@@ -1,0 +1,93 @@
+
+📘 COMPENDIO DE COMANDOS GIT
+🔰 Básicos
+.
+git status # Ver estado del repo
+git add . # Agregar cambios
+git commit -m "msg" # Guardar cambios
+git push # Subir cambios
+git pull # Traer cambios
+git pull --rebase # Traer cambios sin merge
+
+🔍 Inspección
+
+git log
+git log --oneline --graph
+git diff
+
+🌿 Ramas
+
+git branch # Ver ramas
+git branch nombre # Crear rama
+git switch nombre # Cambiar de rama
+git switch -c nombre # Crear y cambiar
+
+🔄 Flujo típico
+
+git switch -c feature/mi-cambio
+git add .
+git commit -m "cambio"
+git push -u origin feature/mi-cambio
+
+🧳 Stash (guardar temporal)
+
+git stash
+git stash pop
+
+🔙 Deshacer cambios
+
+git restore archivo.py
+git restore --staged archivo.py
+
+🔄 Reset
+
+git reset --soft HEAD~1
+
+🔥 Revert (recomendado)
+
+git revert HEAD
+
+⚠️ Reset fuerte (cuidado)
+
+git reset --hard HEAD~1
+git push --force
+
+🔗 Remotos
+
+git remote -v
+git push -u origin rama
+
+🧹 Limpieza
+
+git branch -d rama
+git push origin --delete rama
+
+🧠 Avanzado
+
+git fetch
+git merge rama
+git rebase rama
+
+🎯 Flujo real resumido
+
+git pull --rebase
+git switch -c feature/nueva
+git add .
+git commit -m "cambios"
+git push -u origin feature/nueva
+
+⚠️ Reglas
+No trabajar en main
+Hacer commits pequeños
+Usar ramas
+Evitar push --force
+Usar revert en equipo
+
+
+
+
+
+
+
+
+--cambio prueba
